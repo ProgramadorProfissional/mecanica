@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Autofix</title>
+ 
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - material icon font
+  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Início</a>
+          </li>
+
+          <li>
+            <a href="#sobre" class="navbar-link">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#servicos" class="navbar-link">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#projetos" class="navbar-link">Projetos</a>
+          </li>
+
+          <li>
+            <a href="#contatos" class="navbar-link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn-primary">
+        <span class="span">Obtenha uma cotação</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero has-bg-image" aria-label="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle :dark">Temos engenheiros e mecânicos talentosos</p>
+
+            <h1 class="h1 section-title">Serviço de manutenção e reparo de automóveis</h1>
+            <br><br>
+
+            <a href="#servico" class="btn">
+              <span class="span">Nossos serviços</span>
+
+              <span class="material-symbols-rounded">arrow_forward</span>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner" style="--width: 1228; --height: 789;">
+            <img src="./assets/images/hero-banner.png" width="1228" height="789" alt="red motor vehicle"
+              class="move-anim">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service has-bg-image"  id="servicos"  aria-labelledby="service-label"
+        style="background-image: url('./assets/images/service-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle :light" id="service-label">Nossos Serviços</p>
+
+          <h2 class="h2 section-title">Oferecemos ótimos serviços para o seu veículo</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-1.png" width="110" height="110" loading="lazy" alt="Engine Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Reparação de motores</h3>
+
+                <p class="card-text">
+                  A reparação de motores é uma habilidade artesanal e técnica que envolve diagnosticar, corrigir e aprimorar o desempenho de motores.
+                </p>
+
+                <a href="#" class="btn-link">Consulte Mais informação</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-2.png" width="110" height="110" loading="lazy" alt="Brake Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Reparação de freios</h3>
+
+                <p class="card-text">
+                  A reparação de freios é a arte de garantir que o elemento crucial da segurança veicular esteja em perfeitas condições.
+                </p>
+
+                <a href="#" class="btn-link">Consulte Mais informação</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-3.png" width="110" height="110" loading="lazy" alt="Tire Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Reparação de pneus</h3>
+
+                <p class="card-text">
+                  A reparação de pneus é a prática hábil de restaurar a vitalidade daqueles anéis de borracha que mantêm os veículos conectados ao solo.
+                </p>
+
+                <a href="#" class="btn-link">Consulte Mais informação</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-4.png" width="110" height="110" loading="lazy"
+                    alt="Battery Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Reparo de bateria</h3>
+
+                <p class="card-text">
+                  A reparação é uma arte de ressuscitar a energia, trazendo de volta a vitalidade às células que alimentam nossos veículos.
+                </p>
+
+                <a href="#" class="btn-link">Consulte Mais informação</a>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <img src="./assets/images/services-5.png" width="646" height="380" loading="lazy" alt="Red Car"
+                class="move-anim">
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-6.png" width="110" height="110" loading="lazy"
+                    alt="Steering Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Reparação de direção</h3>
+
+                <p class="card-text">
+                  A reparação de direção (coração de um veículo) é a habilidade de trazer de volta a suavidade e precisão ao leme de um veículo.
+                </p>
+
+                <a href="#" class="btn-link">Consulte Mais informação</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn">
+            <span class="span">Ver todos os serviços</span>
+
+            <span class="material-symbols-rounded">arrow_forward</span>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about has-before" id="sobre"  aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="540" height="540" loading="lazy"
+              alt="vehicle repire equipments" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle :dark">Sobre nós</p>
+
+            <h2 class="h2 section-title">Estamos comprometidos em atender a qualidade</h2>
+
+            <p class="section-text">
+              Este compromisso não é apenas uma declaração de missão escrita em papéis de parede corporativos, mas uma filosofia que é vivida e respirada por todos os membros da equipe. 
+            </p>
+
+            <p class="section-text">
+              Significa que a empresa investe em processos robustos, pesquisa contínua e inovação para elevar constantemente os padrões. Isso implica em uma mentalidade de busca pela excelência, onde mediocridade não é uma opção.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">8K+</strong> Clientes satisfeitos
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">22+</strong> Instrumentos
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">50+</strong> Anos no mercado
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">99%</strong> Projetos concluídos
+                </p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #WORK
+      -->
+
+      <section class="section work" id="projetos" aria-labelledby="work-label">
+        <div class="container">
+
+          <p class="section-subtitle :light" id="work-label">Nosso trabalho</p>
+
+          <h2 class="h2 section-title">Últimos projetos que realizamos</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-1.jpg" width="350" height="406" loading="lazy" alt="Engine Repair"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Auto reparação</p>
+
+                  <h3 class="h3 card-title">Reparação de motores</h3>
+
+                  <a href="#" class="card-btn">
+                    <span class="material-symbols-rounded">arrow_forward</span>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-2.jpg" width="350" height="406" loading="lazy" alt="Car Tyre change"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Auto reparação</p>
+
+                  <h3 class="h3 card-title">Troca de pneu de carro</h3>
+
+                  <a href="#" class="card-btn">
+                    <span class="material-symbols-rounded">arrow_forward</span>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-3.jpg" width="350" height="406" loading="lazy" alt="Battery Adjust"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Auto reparação</p>
+
+                  <h3 class="h3 card-title">Ajuste da bateria</h3>
+
+                  <a href="#" class="card-btn">
+                    <span class="material-symbols-rounded">arrow_forward</span>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer"  id="contatos">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
+          </a>
+
+          <p class="footer-text">
+            Com serviços de excelência que vão desde manutenção até personalização, estamos aqui para impulsionar seu veículo ao próximo nível. 
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/instagram.svg" alt="instagram">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Horário de funcionamento</p>
+          </li>
+
+          <li>
+            <p class="p">Segunda a Sábado</p>
+
+            <span class="span">12h00 – 14h45</span>
+          </li>
+
+          <li>
+            <p class="p">Domingo a Quinta</p>
+
+            <span class="span">17h30 – 00h00</span>
+          </li>
+
+          <li>
+            <p class="p">Sexta-feira – Sábado</p>
+
+            <span class="span">12h00 – 14h45</span>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Informações de contato</p>
+          </li>
+
+          <li>
+            <a href="https://wa.me/5511953357757?text=Quero+um+site+com+o+modelo+igual+da+autoflix%2C+para+o+meu+com%C3%A9rcio" target="_blank" class="footer-link">
+              <span class="material-symbols-rounded">Chamar</span>
+
+              <span class="span">+55 (11) 95335-7757</span>
+            </a>
+          </li>
+
+          <li>
+            
+              <span class="material-symbols-rounded">Email</span>
+
+              <span class="span">autoflix@gmail.com</span>
+            </a>
+          </li>
+
+          <li>
+            <address class="footer-link address">
+              <span class="material-symbols-rounded">localização_em</span>
+
+              <span class="span"> Rua Julio César, 3000, Brasil</span>
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <img src="./assets/images/footer-shape-3.png" width="637" height="173" loading="lazy" alt="Shape"
+        class="shape shape-3 move-anim">
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">&copy; Direitos Reservados - Miquéias Silva</p>
+
+        <img src="./assets/images/footer-shape-2.png" width="778" height="335" loading="lazy" alt="Shape"
+          class="shape shape-2">
+
+        <img src="./assets/images/footer-shape-1.png" width="805" height="652" loading="lazy" alt="Red Car"
+          class="shape shape-1 move-anim">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/index.js"></script>
+
+</body>
+
+</html>
